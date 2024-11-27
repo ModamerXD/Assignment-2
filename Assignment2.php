@@ -5,6 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UOB Students by Nationality</title>
     <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <style>
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            color: #0056b3;
+        }
+
+        header p {
+            color: #555;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        table th, table td {
+            text-align: left;
+            padding: 1rem;
+            border: 1px solid #333;
+        }
+
+        table th {
+            background-color: #0056b3;
+            color: white;
+        }
+
+        table tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem; 
+    background-color: #0056b3; 
+    color: white;
+    font-size: 0.85rem; 
+        }
+
+        footer a {
+            color: #ffd700; 
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline; 
+        }
+
+        /* Responsive table */
+        @media (max-width: 768px) {
+
+            table {
+                font-size: 0.8rem;
+                width: 100%;
+                overflow-x: auto;
+            }
+        }
+
+        p.empty{
+             text-align : center;
+             color : red;
+        }
+
+    </style>
    
 </head>
 <body>
