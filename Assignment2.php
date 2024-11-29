@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UOB Students by Nationality</title>
-    <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
     <style>
         body {
             background-color: #f9f9f9;
@@ -31,8 +30,9 @@
             margin: 0 auto;
             border-collapse: collapse;
             width: 100%;
-            max-width: 800px;
+            max-width: 70%;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        
         }
 
         table th, table td {
@@ -45,6 +45,7 @@
             background-color: #0056b3;
             color: white;
         }
+      
 
         table tbody tr:hover {
             background-color: #f1f1f1;
